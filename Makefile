@@ -14,4 +14,4 @@ snapshot-release:
 	goreleaser release --rm-dist -p2 --snapshot
 
 test: 
-	go test .
+	go test ./...
