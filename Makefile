@@ -1,7 +1,7 @@
 default: build
 
 build:
-	go build -o ${BINARY}
+	go build -o out/resolve-semver
 
 release:
 # ifndef GPG_FINGERPRINT
