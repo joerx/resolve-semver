@@ -1,4 +1,4 @@
-module transferwise.com/resolve-semver
+module github.com/joerx/resolve-semver
 
 go 1.14
 
